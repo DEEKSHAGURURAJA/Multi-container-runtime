@@ -1,11 +1,7 @@
-# Multi-Container Runtime — OS-Jackfruit
+# Multi-Container Runtime 
 
-## 1. Team Information
-
-| Name | SRN |
-|------|-----|
-| Vivek Varma | PES1UG24AM070 |
-| Bhuvan Kumar | PES1UG24AM069 |
+## 1. Author
+Deeksha Gururaja
 
 ---
 
