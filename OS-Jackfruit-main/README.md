@@ -96,10 +96,16 @@ sudo dmesg | tail -5
 ## 3. Demo Screenshots
 
 ### Screenshot 1 — Multi-container supervision
+
+<img width="913" height="413" alt="image" src="https://github.com/user-attachments/assets/03bfb630-a340-4d3d-96be-be5f53201854" />
+
 <img width="1282" height="223" alt="Screenshot from 2026-04-09 01-30-36" src="https://github.com/user-attachments/assets/8b29a4be-030e-4294-86bb-11b6a72c2730" />
 *Two containers alpha and beta started and running under one supervisor process*
 
 ### Screenshot 2 — Metadata tracking
+
+<img width="922" height="191" alt="image" src="https://github.com/user-attachments/assets/2f673c40-c796-4d6c-9886-d887c3ad53f7" />
+
 <img width="898" height="132" alt="Screenshot from 2026-04-09 01-35-08" src="https://github.com/user-attachments/assets/57897788-aba4-47c1-9b62-c9d36826dfe5" />
 *ps command showing container ID, PID, STATE, SOFT and HARD memory limits*
 
@@ -128,6 +134,8 @@ sudo dmesg | tail -5
 *cpu-low container running with nice 10, reduced CFS weight*
 
 ### Screenshot 8 — Clean teardown
+
+
 <img width="949" height="339" alt="Screenshot from 2026-04-09 01-55-34" src="https://github.com/user-attachments/assets/f83c4514-ad22-4f0f-9737-155f35d5d65c" />
 *No zombie processes, all containers reaped, kernel module unloaded cleanly*
 
